@@ -4,10 +4,9 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-title{
-  width: fit-content;
-  block-size: fit-content;
-  padding: 0;
-  
+.navtitle{
+  box-sizing: content-box;
+  width: 100%;
+}
   
 
