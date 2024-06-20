@@ -1,3 +1,29 @@
----
----
-@import "{{ site.theme }}";
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header{
+  font-size: 20px;
+  padding: 40px 50px;
+  box-sizing: border-box;
+  overflow: auto;
+  margin-bottom: 20px;
+
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+  word-spacing: 10px;
+}
