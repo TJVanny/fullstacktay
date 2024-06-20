@@ -16,6 +16,7 @@ a{
   box-sizing: border-box;
   overflow: auto;
   margin-bottom: 20px;
+  border-bottom: solid white;
 
 }
 
@@ -29,7 +30,11 @@ a{
 }
 
 .homehead{
-  margin: 
+  padding: 40px 50px;
+  overflow: auto;
+  margin-bottom: 20px;
+  
+  
 }
 
 
