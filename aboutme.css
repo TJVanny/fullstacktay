@@ -87,7 +87,6 @@ img{
   padding: 20px;
   text-align: center;
   clear: both;
-  margin-top: 200px;
 }
 
 ul li{
@@ -141,4 +140,5 @@ h3{
   height: 450px;
   clip-path: circle(50% at 50% 50%);
   overflow: clip;
+  margin-top: 400px;
 }
