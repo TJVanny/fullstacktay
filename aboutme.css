@@ -33,8 +33,7 @@ a{
   word-spacing: 10px;
 }
 
-.aboutme{
-  margin-top: 30px;
+.homehead{
   padding: 40px 50px;
   text-align: center;
 }
@@ -43,14 +42,15 @@ a{
   border: solid white 1px;
   width: 29%;
   padding: 10px;
-  margin: 10px;
+  margin: 50px 10px 10px 10px;
   float: left;
 }
 
 .present{
   border: solid white 1px;
   width: 33%;
-  margin: 10px;
+  padding: 10px;
+  margin: 50px 10px 10px 10px;
   padding: 10px;
   float: left;
 }
@@ -59,7 +59,8 @@ a{
   border: solid white 1px;
   width: 29%;
   padding: 10px;
-  margin: 10px;
+  padding: 10px;
+  margin: 50px 10px 10px 10px;
   float: left;
 }
 
@@ -70,27 +71,61 @@ img{
 }
 
 .skills{
+  width: 100%;
+  padding: 20px;
   text-align: center;
   clear: both;
   margin-top: 350px;
-  list-style-type: none;
+}
+
+ul li{
+  text-align: center;
+  display: inline;
+  border: solid white 1px;
+  padding: 5px;
+  margin-top: 20px;
 }
 
 .front{
-  text-align: left;
+  margin: 40px;
 }
 
 .frontlist{
-  float: left;
-  border: solid white 1px;
+  margin-top: 100px;
+}
+
+.back{
+  clear: both;
+  margin:40px;
+}
+
+.backlist{
+  margin-top: 20px;
+}
+
+.soft{
+  clear: both;
+  margin:40px;
+}
+
+.softlist{
+  margin-top: 20px;
 }
 
 
 h2{
-  font-size: 18px;
-  margin-bottom: 5px;
+  font-size: 25px;
+  margin-bottom: 15px;
 }
 
 h3{
   font-size: 12px;
+}
+
+.background{
+  background-color: black;
+  width: 100%;
+  height: 450px;
+  clip-path: circle(50% at 50% 50%);
+  overflow: clip;
 }
