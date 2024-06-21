@@ -81,7 +81,8 @@ img{
 ul li{
   text-align: center;
   display: inline;
-  border: solid white 1px;
+  background-color: #311f5b;
+  border-radius: 5px;
   padding: 5px;
   margin-top: 20px;
 }
