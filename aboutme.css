@@ -34,6 +34,46 @@ a{
 }
 
 .aboutme{
+  margin-top: 30px;
   padding: 40px 50px;
   text-align: center;
+}
+
+.past{
+  border: solid white 1px;
+  width: 29%;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+.present{
+  border: solid white 1px;
+  width: 33%;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+}
+
+.future{
+  border: solid white 1px;
+  width: 29%;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+.skills{
+  text-align: center;
+  clear: both;
+  margin-top: 200px;
+}
+
+h2{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+h3{
+  font-size: 12px;
 }
