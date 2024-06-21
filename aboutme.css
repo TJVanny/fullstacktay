@@ -76,7 +76,14 @@ img{
   list-style-type: none;
 }
 
+.front{
+  text-align: left;
+}
 
+.frontlist{
+  float: left;
+  border: solid white 1px;
+}
 
 
 h2{
