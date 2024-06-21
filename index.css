@@ -1,9 +1,12 @@
+html{
+  background-image: linear-gradient(to top, #311f5b 0%, #000000 100%);
+}
+
 *{
   margin: 0;
   padding: 0;
   color: white;
-  background-color: black;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman";
 }
 
 a{
@@ -12,11 +15,13 @@ a{
 
 .header{
   font-size: 20px;
-  padding: 40px 50px;
+  padding: 60px 80px;
   box-sizing: border-box;
   overflow: auto;
-  margin-bottom: 20px;
-  border-bottom: solid white;
+}
+
+.line {
+  text-align: center;
 }
 
 .left{
@@ -30,6 +35,51 @@ a{
 
 .homehead{
   padding: 40px 50px;
+  text-align: center;
+}
+
+.updates{
+  padding: 40px 50px;
+  text-align: center;
+}
+
+h1{
+  margin: 40px;
+}
+
+.taylor{
+  height: 300px;
+  width: 300px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+h2{
+  margin: 30px;
+}
+
+.background{
+  background-color: black;
+  width: 100%;
+  height: 600px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.image1{
+  float: left;
+  width: 50%;
+  font-size: 20px;
+}
+
+.image2{
+  float: left;
+  width: 50%;
+  font-size: 20px;
+}
+
+
+img{
+  width: 300px;
+  height: 300px;
 }
 
 
