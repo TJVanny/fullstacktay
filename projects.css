@@ -1,1 +1,53 @@
+html{
+  background-image: linear-gradient(to top, #311f5b 0%, #000000 100%);
+}
 
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Times New Roman";
+}
+
+a{
+  text-decoration: none;
+  word-spacing: 1px;
+}
+
+.header{
+  font-size: 20px;
+  padding: 60px 80px;
+  box-sizing: border-box;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: black;
+}
+
+.line {
+  text-align: center;
+  margin-top: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+  word-spacing: 2px;
+}
+
+.homehead{
+  padding: 40px 50px;
+  text-align: center;
+  margin: 100px;
+}
