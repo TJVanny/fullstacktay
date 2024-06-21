@@ -11,6 +11,7 @@ html{
 
 a{
   text-decoration: none;
+  word-spacing: 1px;
 }
 
 .header{
@@ -18,10 +19,22 @@ a{
   padding: 60px 80px;
   box-sizing: border-box;
   overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: black;
 }
 
 .line {
   text-align: center;
+  margin-top: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
 }
 
 .left{
@@ -30,19 +43,20 @@ a{
 
 .right{
   float: right;
-  word-spacing: 10px;
+  word-spacing: 2px;
 }
 
 .homehead{
   padding: 40px 50px;
   text-align: center;
+  margin: 100px;
 }
 
 .past{
   border: solid white 1px;
   width: 29%;
   padding: 10px;
-  margin: 50px 10px 10px 10px;
+  margin: 30px 5px 5px 5px;
   float: left;
 }
 
@@ -50,8 +64,7 @@ a{
   border: solid white 1px;
   width: 33%;
   padding: 10px;
-  margin: 50px 10px 10px 10px;
-  padding: 10px;
+  margin: 30px 5px 5px 5px;
   float: left;
 }
 
@@ -59,8 +72,7 @@ a{
   border: solid white 1px;
   width: 29%;
   padding: 10px;
-  padding: 10px;
-  margin: 50px 10px 10px 10px;
+  margin: 30px 5px 5px 5px;
   float: left;
 }
 
@@ -75,7 +87,7 @@ img{
   padding: 20px;
   text-align: center;
   clear: both;
-  margin-top: 350px;
+  margin-top: 200px;
 }
 
 ul li{
