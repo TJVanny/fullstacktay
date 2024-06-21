@@ -12,3 +12,23 @@ html{
 a{
   text-decoration: none;
 }
+
+.header{
+  font-size: 20px;
+  padding: 60px 80px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.line {
+  text-align: center;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+  word-spacing: 10px;
+}
