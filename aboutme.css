@@ -1,1 +1,14 @@
+html{
+  background-image: linear-gradient(to top, #311f5b 0%, #000000 100%);
+}
 
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Times New Roman";
+}
+
+a{
+  text-decoration: none;
+}
