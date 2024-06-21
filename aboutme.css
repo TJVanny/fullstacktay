@@ -32,3 +32,8 @@ a{
   float: right;
   word-spacing: 10px;
 }
+
+.aboutme{
+  padding: 40px 50px;
+  text-align: center;
+}
